@@ -124,7 +124,7 @@ plot_distribution_semaine <- function(trajet) {
 }
 
 
-#' @title Filtrer les trajets selon un ou plusieurs numéros de boucle
+#' @title Filtrer les trajets selon un ou plusieurs numéros de bouclesss
 #'
 #' @description Cette fonction filtre un jeu de données de trajets pour ne conserver
 #' que les lignes correspondant aux numéros de boucle sélectionnés.
