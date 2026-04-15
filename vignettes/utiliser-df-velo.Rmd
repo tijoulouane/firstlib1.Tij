@@ -1,0 +1,30 @@
+---
+title: "utiliser-df-velo"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{utiliser-df-velo}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+Introduction
+
+Cette vignette montre comment utiliser le jeu de données df_velo du package.
+On présente d'abord un filtre sur une ou plusieurs boucles, puis la réalisation
+d'un graphique à partir des données filtrées.
+```{r setup}
+library(firstlib1.Tij)
+```
+
+```{r}
+df_boucle <- filtrer_trajet(trajet = donnee, boucle = c("880", "881"))
+head(df_boucle)
+
+```
+

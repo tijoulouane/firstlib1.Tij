@@ -2,7 +2,7 @@
 % Please edit documentation in R/vélo.R
 \name{filtrer_trajet}
 \alias{filtrer_trajet}
-\title{Filtrer les trajets selon un ou plusieurs numéros de boucle}
+\title{Filtrer les trajets selon un ou plusieurs numéros del boucleessss}
 \usage{
 filtrer_trajet(trajet, boucle)
 }
