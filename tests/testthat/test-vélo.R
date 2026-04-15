@@ -135,8 +135,7 @@ test_that("filtrer_trajet conserve seulement les boucles demandées", {
   attendu <- data.frame(
     `Numéro de boucle` = c("12", "18"),
     Total = c(100, 300),
-    check.names = FALSE
-  )
+    check.names = FALSE)
 
   expect_equal(res, attendu)
 })
